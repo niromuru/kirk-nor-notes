@@ -6,7 +6,7 @@ def main():
     nr = InitNornir(config_file="config.yaml")
     print(nr)
     print(nr.inventory.hosts)
-    # pdbr.set_trace()
+    pdbr.set_trace()
 
 
 if __name__ == "__main__":
